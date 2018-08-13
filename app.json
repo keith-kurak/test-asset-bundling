@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "test-asset-bundling",
+    "description": "This project is really great.",
+    "slug": "test-asset-bundling",
+    "privacy": "public",
+    "sdkVersion": "29.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.llamaluvr.testassetbundling",
+      "publishBundlePath": "ios/test-asset-bundling/Supporting/shell-app.bundle",
+      "publishManifestPath": "ios/test-asset-bundling/Supporting/shell-app-manifest.json"
+    },
+    "isDetached": true,
+    "detach": {
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.7.0-sdk29.0.0-de70611d-e42d-4d50-a6a5-2d8eabf6ed72.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.6.0-sdk29.0.0-2366e226-0c19-4600-aa66-dce75dd474fb.tar.gz"
+    },
+    "scheme": "exp7fd4a6c6214d462899237c695ea7e853",
+    "android": {
+      "package": "com.llamaluvr.testassetbundling",
+      "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+      "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+    }
+  }
+}
