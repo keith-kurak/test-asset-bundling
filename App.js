@@ -1,5 +1,7 @@
 import React from 'react';
 import { StyleSheet, Image, View } from 'react-native';
+import { Asset } from 'expo';
+Asset;
 
 export default class App extends React.Component {
   render() {
