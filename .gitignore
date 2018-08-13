@@ -5,3 +5,8 @@ android/.idea/*
 android/app/build/*
 android/build/*
 keystore
+*.apk
+android/app/devMinSdkDevKernel/release/output.json
+android/app/devMinSdkProdKernel/release/output.json
+android/app/prodMinSdkDevKernel/release/output.json
+android/app/prodMinSdkProdKernel/release/output.json
